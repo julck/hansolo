@@ -1536,6 +1536,24 @@ No nos hacemos responsables de la  distribución del mismo por parte de terceros
     </extension>
 </addon>
 
+<addon id="repository.julck" name="Julck repo" version="0.0.1" provider-name="JL">
+	<extension point="xbmc.addon.repository" name="JL Repository">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://raw.githubusercontent.com/julck/hansolo/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/julck/hansolo/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/julck/hansolo/master/zips/<</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">julck</summary>
+		<description lang="en">julck</description>
+		<genre></genre>
+	</extension>
+</addon>
+
 <addon id="repository.kodil" name=".[COLOR blue].Kodil [/COLOR][COLOR white] Repository [/COLOR]" version="1.3" provider-name="kodil">
     <extension point="xbmc.addon.repository" name=".Kodil  Repository ">
         <info compressed="false">https://raw.githubusercontent.com/kodil/kodil/master/addons.xml</info>
